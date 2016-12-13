@@ -11,7 +11,7 @@ resolvers ++= Seq("Typesafe Repository" at "http://repo.typesafe.com/typesafe/re
 
 libraryDependencies ++= {
   Seq(
-    "org.apache.spark" %% "spark-core" % "2.0.0",
+    "org.apache.spark" %% "spark-core" % "2.0.2",
     "com.datastax.spark" %% "spark-cassandra-connector" % "2.0.0-M3",
     "com.typesafe" % "config" % "1.3.0",
     "org.apache.spark" %% "spark-sql" % "2.0.2"
